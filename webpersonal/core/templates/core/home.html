@@ -1,15 +1,16 @@
 {% extends 'core/base.html' %}
-{% block title %} Portada {% endblock %}
+
+{% block title %}Portada{% endblock %}
 
 {% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
 
 {% block headers %}
-<h1>Fabian Arancibia</h1>
-<span class="subheading">Programador</span>
-{% endblock %}
-
-
-{% block content %}
-
-
+<div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="site-heading">
+        <h1>Fabian Arancibia</h1>
+        <span class="subheading">Analista Programador</span>
+      </div>
+    </div>
+</div>
 {% endblock %}
